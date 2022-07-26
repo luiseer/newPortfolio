@@ -21,6 +21,11 @@ const Header = () => {
               Contacto
             </a>
           </li>
+          <li>
+            <a className="hover:border-b" href="#">
+              Habilidades
+            </a>
+          </li>
         </ul>
       </div>
     </nav>

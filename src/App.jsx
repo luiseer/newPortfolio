@@ -5,10 +5,10 @@ import 'aos/dist/aos.css';
 import video from './assets/video/keyboard.mp4';
 import Header from './components/Header';
 import Projects from './components/Projects';
+import AboutMe from './components/AboutMe';
 AOS.init();
 
 function App() {
-  
   const [count, setCount] = useState(0);
 
   return (
@@ -27,6 +27,7 @@ function App() {
         />
         <Projects />
       </div>
+      <AboutMe />
     </>
   );
 }
