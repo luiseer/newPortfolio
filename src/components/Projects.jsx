@@ -1,3 +1,5 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import {
   blogcafe,
   festival,
@@ -7,10 +9,12 @@ import {
   quotes
 } from '../assets/img';
 
+AOS.init();
+
 const Projects = () => {
   return (
     <>
-      <main>
+      <main data-aos="flip-right">
         <h1 className="uppercase text-ellipsis mt-5 text-xl text-white flex items-center justify-center bg-slate-500">
           Mis Proyectos
         </h1>

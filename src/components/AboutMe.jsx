@@ -1,4 +1,8 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { me } from '../assets/img';
+
+AOS.init();
 
 const AboutMe = () => {
   return (
@@ -9,7 +13,7 @@ const AboutMe = () => {
           <div className='flex flex-col items-center justify-center'>
             <button className=''>Descargar CV</button>
           </div>
-          <div>
+          <div data-aos="zoom-in">
             <img src={me} alt="me" />
           </div>
         </div>
