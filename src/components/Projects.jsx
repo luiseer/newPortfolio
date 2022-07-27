@@ -15,10 +15,9 @@ const Projects = () => {
   return (
     <>
       <main data-aos="flip-right">
-        <h1 className="uppercase text-ellipsis mt-5 text-xl text-white flex items-center justify-center bg-slate-500">
+        <h1 className="uppercase text-ellipsis mt-5 text-xl text-primary-color flex items-center justify-center bg-secondary-color opacity-75">
           Mis Proyectos
         </h1>
-        {/* full responsive grid  */}
         <div className="grid sm:grid-cols-1 md:grid-cols-3 px-5 gap-3 mt-1">
           <div>
             <a href="">
