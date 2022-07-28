@@ -12,7 +12,7 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a className="hover:border-b" href="#">
+            <a className="hover:border-b" id="about" href="#">
               Acerca de mí
             </a>
           </li>

@@ -7,6 +7,8 @@ import Header from './components/Header';
 import Projects from './components/Projects';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 AOS.init();
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
       </div>
       <AboutMe />
       <Skills />
+      <Contact />
+      <Footer />
     </>
   );
 }
