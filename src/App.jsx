@@ -29,7 +29,7 @@ function App() {
         <Projects />
       </div>
       <AboutMe />
-      <Skills/>
+      <Skills />
     </>
   );
 }
