@@ -8,7 +8,7 @@ AOS.init();
 const AboutMe = () => {
   return (
     <>
-      <section className="mt-20" id="about">
+      <section className="mt-20 bg-blue-color" id="about">
         <h2 className="text-center uppercase text-green-color font-bold text-2xl mb-5">
           Acerca de Mí
         </h2>

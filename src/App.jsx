@@ -16,23 +16,26 @@ function App() {
 
   return (
     <>
-      <div className="video-container">
-        <Header />
-        <Projects />
-        <ReactPlayer
-          width="100%"
-          height="100%"
-          className="video absolute -z-10"
-          muted={true}
-          playing
-          loop
-          controls={false}
-          url={video}
-        />
+      <div className="relative">
+        <div className="absolute flex justify-center overflow-hidden top-0 left-0 w-full h-full">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-auto max-w-none h-full"
+          >
+            <source src={video} type="video/mp4" />
+          </video>
+        </div>
+        <div className="w-full flex justify-center items-center flex-wrap gap-6 relative">
+          <Header />
+          <Projects />
+          <AboutMe />
+          <Skills />
+          <Contact />
+        </div>
       </div>
-      <AboutMe />
-      <Skills />
-      <Contact />
       <Footer />
     </>
   );

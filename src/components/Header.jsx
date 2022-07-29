@@ -4,7 +4,7 @@ const Header = () => {
       <div className="nav-wrapper">
         <ul
           id="nav-mobile"
-          className="flex flex-wrap items-center justify-end gap-5 mr-48 mt-9 relative text-white"
+          className="flex flex-wrap items-center justify-end gap-5 mr-48  relative text-white"
         >
           <li>
             <a className="hover:border-b" href="#">
