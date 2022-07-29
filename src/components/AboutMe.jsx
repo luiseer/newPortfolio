@@ -32,7 +32,16 @@ const AboutMe = () => {
               En el año 2020 inicie con varios cursos en Udemy como desarrollo
               web completo
             </p>
-            <p>En 2021 inicio un bootcamp de programación en <a className='text-green-color'  href="https://www.academlo.com/">Academlo.</a></p>
+            <p>
+              En 2021 inicio un bootcamp de programación en{' '}
+              <a
+                className="text-green-color"
+                target="_blank"
+                href="https://www.academlo.com/"
+              >
+                Academlo.
+              </a>
+            </p>
             <p>
               Actualmente he concluido el bootcamp y me encuentro buscando un
               trabajo
@@ -40,7 +49,7 @@ const AboutMe = () => {
             <p></p>
           </div>
           <div className="m-auto">
-            <a href={cv} target='_blank'>
+            <a href={cv} target="_blank">
               <button className="hover:animate-bounce bg-primary-color w-full py-3 px-5 rounded-md shadow-xl text-secondary-color font-bold uppercase hover:bg-green-color">
                 Descargar CV
               </button>

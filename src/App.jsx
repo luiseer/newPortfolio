@@ -18,6 +18,7 @@ function App() {
     <>
       <div className="video-container">
         <Header />
+        <Projects />
         <ReactPlayer
           width="100%"
           height="100%"
@@ -28,7 +29,6 @@ function App() {
           controls={false}
           url={video}
         />
-        <Projects />
       </div>
       <AboutMe />
       <Skills />

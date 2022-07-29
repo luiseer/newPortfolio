@@ -6,7 +6,7 @@ const Contact = () => {
       <h2 className="text-center uppercase text-green-color font-bold text-2xl mt-20">
         Contacto
       </h2>
-      <form className="mt-10 flex flex-col justify-center mb-28">
+      <form className="mt-10 flex flex-col justify-center mb-28 py-3 px-5">
         <div className="mb-5 flex justify-center items-center text-center">
           <label
             htmlFor="name"
@@ -50,7 +50,7 @@ const Contact = () => {
         </div>
         <input
           type="submit"
-          className="hover:animate-pulse m-auto bg-primary-color w-1/4 py-3 px-5 rounded-md shadow-xl text-secondary-color font-bold uppercase hover:bg-green-color text-center"
+          className="hover:animate-pulse sm:w-1/5 w-full m-auto bg-primary-color  py-3 px-5 rounded-md shadow-xl text-secondary-color font-bold uppercase hover:bg-green-color text-center"
           value="enviar"
         />
       </form>

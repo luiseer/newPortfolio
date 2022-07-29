@@ -11,7 +11,7 @@ const Footer = () => {
       <p className="text-sm">
         © {new Date().getFullYear()} - Todos los derechos reservados
       </p>
-      <div className='flex gap-5 justify-center mt-4'>
+      <div className="flex gap-5 justify-center mt-4">
         <a href="https://github.com/luiseer">
           <FontAwesomeIcon
             className="text-secondary-color text-4xl"

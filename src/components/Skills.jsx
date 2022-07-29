@@ -3,7 +3,7 @@ import 'aos/dist/aos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCss3,
-  faGit,
+  faGithub,
   faHtml5,
   faJs,
   faNode,
@@ -59,7 +59,7 @@ const Skills = () => {
         <div data-aos="fade-up-left">
           <FontAwesomeIcon
             className="text-blue-color font-extrabold text-9xl p-2"
-            icon={faGit}
+            icon={faGithub}
           />
         </div>
       </div>
