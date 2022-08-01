@@ -28,15 +28,27 @@ function App() {
             <source src={video} type="video/mp4" />
           </video>
         </div>
-        <div className="w-full flex justify-center items-center flex-wrap gap-6 relative">
-          <Header />
-          <Projects />
-          <AboutMe />
-          <Skills />
-          <Contact />
+        <div className="w-full items-center flex-wrap gap-6 relative">
+          <div>
+            <Header />
+          </div>
+          <div>
+            <Projects />
+          </div>
+          <div>
+            <AboutMe />
+          </div>
+          <div>
+            <Skills />
+          </div>
+          <div>
+            <Contact />
+          </div>
+          <div>
+            <Footer />
+          </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
