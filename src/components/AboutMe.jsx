@@ -8,15 +8,17 @@ AOS.init();
 const AboutMe = () => {
   return (
     <>
-      <section className="mt-20 bg-blue-color" id="about">
-        <h2 className="text-center uppercase text-green-color font-bold text-2xl mb-5">
-          Acerca de Mí
-        </h2>
+      <section className="mt-20 h-full bg-blue-color opacity-95 " id="about">
+          <div className="mt-5 flex uppercase text-green-color font-bold text-2xl">
+            <h2 className='mt-10 m-auto'>
+              Acerca de Mí
+            </h2>
+          </div>
         <div data-aos="zoom-in" className="flex">
           <div>
-            <img className="rounded-full" src={me} alt="me" />
+            <img className="py-10 px-5 rounded-full" src={me} alt="me" />
           </div>
-          <div className="flex flex-col justify-center text-white">
+          <div className="flex flex-col flex-wrap-reverse justify-center text-white">
             <h2 className="text-xl mb-2">
               Hola, soy{' '}
               <span className="text-green-color">
@@ -50,7 +52,7 @@ const AboutMe = () => {
           </div>
           <div className="m-auto">
             <a href={cv} target="_blank">
-              <button className="hover:animate-bounce bg-primary-color w-full py-3 px-5 rounded-md shadow-xl text-secondary-color font-bold uppercase hover:bg-green-color">
+              <button className="hover:animate-bounce bg-primary-color w-full py-3 px-5 mr-1 rounded-md shadow-xl text-secondary-color font-bold uppercase hover:bg-green-color">
                 Descargar CV
               </button>
             </a>
