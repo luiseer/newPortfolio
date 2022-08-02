@@ -1,29 +1,29 @@
 const Header = () => {
   return (
     <nav>
-      <div className="nav-wrapper">
+      <div className="py-5">
         <ul
           id="nav-mobile"
           className="flex flex-wrap items-center justify-end gap-5 mr-48  relative text-white"
         >
           <li>
-            <a className="hover:border-b" href="#">
+            <a className="hover:border-b" href="#portafolio">
               Portafio
             </a>
           </li>
           <li>
-            <a className="hover:border-b" id="about" href="#">
+            <a className="hover:border-b" href="#acerca-de-mi" >
               Acerca de mí
             </a>
           </li>
           <li>
-            <a className="hover:border-b" href="#">
-              Contacto
+            <a className="hover:border-b" href="#habilidades">
+              Habilidades
             </a>
           </li>
           <li>
-            <a className="hover:border-b" href="#">
-              Habilidades
+            <a className="hover:border-b" href="#contacto">
+              Contacto
             </a>
           </li>
         </ul>

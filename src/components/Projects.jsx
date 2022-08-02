@@ -1,5 +1,4 @@
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 import {
   blogcafe,
   festival,
@@ -8,13 +7,13 @@ import {
   poke_img,
   quotes
 } from '../assets/img';
+import ModalProjects from '../helpers/ModalProjects'
 
-AOS.init();
 
 const Projects = () => {
   return (
     <>
-      <main data-aos="flip-right">
+      <main>
         <h1 className="uppercase text-ellipsis mt-5 text-xl text-primary-color flex items-center justify-center bg-secondary-color opacity-75">
           Mis Proyectos
         </h1>
@@ -22,6 +21,9 @@ const Projects = () => {
           <div>
             <a href="">
               <img className="w-full h-full" src={blogcafe} alt="blog-cafe" />
+              <div>
+                <ModalProjects />
+              </div>
             </a>
           </div>
           <div>

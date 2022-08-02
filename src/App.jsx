@@ -32,16 +32,16 @@ function App() {
           <div>
             <Header />
           </div>
-          <div>
+          <div id='portafolio'>
             <Projects />
           </div>
-          <div>
+          <div id='acerca-de-mi'>
             <AboutMe />
           </div>
-          <div>
+          <div id='habilidades'>
             <Skills />
           </div>
-          <div>
+          <div id='contacto'>
             <Contact />
           </div>
           <div>
@@ -52,5 +52,4 @@ function App() {
     </>
   );
 }
-
 export default App;
