@@ -1,4 +1,3 @@
-
 import {
   blogcafe,
   festival,
@@ -7,8 +6,7 @@ import {
   poke_img,
   quotes
 } from '../assets/img';
-import ModalProjects from '../helpers/ModalProjects'
-
+import ModalProjects from '../helpers/ModalProjects';
 
 const Projects = () => {
   return (
@@ -18,42 +16,74 @@ const Projects = () => {
           Mis Proyectos
         </h1>
         <div className="grid sm:grid-cols-1 md:grid-cols-3 px-5 gap-3 mt-1">
-          <div>
-            <a href="">
-              <img className="w-full h-full" src={blogcafe} alt="blog-cafe" />
-              <div>
-                <ModalProjects />
-              </div>
-            </a>
+          <div className="flex flex-col items-center">
+            <div>
+              <a href="">
+                <img className="w-full h-full" src={blogcafe} alt="blog-cafe" />
+              </a>
+            </div>
+            <div>
+              <ModalProjects />
+            </div>
           </div>
-          <div>
-            <a href="">
-              <img className="w-full h-full" src={festival} alt="festival" />
-            </a>
+
+          <div className="flex flex-col items-center">
+            <div>
+              <a href="">
+                <img className="w-full h-full" src={festival} alt="festival" />
+              </a>
+            </div>
+            <div>
+              <ModalProjects />
+            </div>
           </div>
-          <div>
-            <a href="">
-              <img
-                className="w-full h-full"
-                src={freelancer}
-                alt="freelancer"
-              />
-            </a>
+
+          <div className="flex flex-col items-center">
+            <div>
+              <a href="">
+                <img
+                  className="w-full h-full"
+                  src={festival}
+                  alt="freelancer"
+                />
+              </a>
+            </div>
+            <div>
+              <ModalProjects />
+            </div>
           </div>
-          <div>
-            <a href="">
-              <img className="w-full h-full" src={store} alt="store" />
-            </a>
+
+          <div className="flex flex-col items-center">
+            <div>
+              <a href="">
+                <img className="w-full h-full" src={store} alt="store" />
+              </a>
+            </div>
+            <div>
+              <ModalProjects />
+            </div>
           </div>
-          <div>
+
+          <div className="flex flex-col items-center">
+            <div>
             <a href="">
               <img className="w-full h-full" src={poke_img} alt="poke" />
             </a>
+            </div>
+            <div>
+              <ModalProjects />
+            </div>
+          
           </div>
-          <div>
+          <div className="flex flex-col items-center">
+            <div>
             <a href="">
               <img className="w-full h-full" src={quotes} alt="quotes" />
             </a>
+            </div>
+            <div>
+              <ModalProjects />
+            </div>
           </div>
         </div>
       </main>
