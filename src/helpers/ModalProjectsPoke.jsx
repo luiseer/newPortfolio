@@ -1,7 +1,8 @@
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
-import ModalTask from '../layout/ModalTask'
-const ModalProjectsTask = () => {
+import ModalPoke from '../layout/ModalPoke'
+
+const ModalProjectsPoke = () => {
   let [isOpen, setIsOpen] = useState(false)
 
   function closeModal() {
@@ -54,15 +55,16 @@ const ModalProjectsTask = () => {
                     as="h3"
                     className="text-lg font-medium leading-6 text-gray-900"
                   >
+                    
                   </Dialog.Title>
                   <div className="mt-2">
-                    <ModalTask />
+                    <ModalPoke />
                   </div>
 
                   <div className="mt-4 flex justify-end">
                     <button
                       type="button"
-                      className="rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                      className=" rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                       onClick={closeModal}
                     >
                       Cerrar
@@ -78,4 +80,4 @@ const ModalProjectsTask = () => {
   )
 }
 
-export default ModalProjectsTask
+export default ModalProjectsPoke

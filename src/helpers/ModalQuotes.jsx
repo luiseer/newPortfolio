@@ -1,7 +1,9 @@
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
-import ModalTask from '../layout/ModalTask'
-const ModalProjectsTask = () => {
+import ModalQoutes from '../layout/ModalQoutes'
+import ModalRyM from '../layout/ModalRyM'
+
+const ModalProjectsQuotes = () => {
   let [isOpen, setIsOpen] = useState(false)
 
   function closeModal() {
@@ -56,7 +58,7 @@ const ModalProjectsTask = () => {
                   >
                   </Dialog.Title>
                   <div className="mt-2">
-                    <ModalTask />
+                    <ModalQoutes />
                   </div>
 
                   <div className="mt-4 flex justify-end">
@@ -78,4 +80,4 @@ const ModalProjectsTask = () => {
   )
 }
 
-export default ModalProjectsTask
+export default ModalProjectsQuotes

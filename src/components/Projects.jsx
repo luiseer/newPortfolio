@@ -7,7 +7,12 @@ import {
   fStore
 } from '../assets/img';
 import ModalProjects from '../helpers/ModalProjects';
+import ModalProjectsHanoi from '../helpers/ModalProjectsHanoi';
+import ModalProjectsPoke from '../helpers/ModalProjectsPoke';
+import ModalProjectsRyckYMorty from '../helpers/ModalProjectsRyckYMorty';
 import ModalProjectsTask from '../helpers/ModalProjectsTask';
+import ModalProjectsQuotes from '../helpers/ModalQuotes';
+import ModalProjectsStoreFront from '../helpers/ModalStoreFront';
 
 const Projects = () => {
   return (
@@ -35,7 +40,7 @@ const Projects = () => {
               </a>
             </div>
             <div className='mt-2'>
-              <ModalProjects />
+              <ModalProjectsPoke />
             </div>
           </div>
 
@@ -50,7 +55,7 @@ const Projects = () => {
               </a>
             </div>
             <div className='mt-2'>
-              <ModalProjects />
+              <ModalProjectsRyckYMorty />
             </div>
           </div>
 
@@ -61,7 +66,7 @@ const Projects = () => {
               </a>
             </div>
             <div className='mt-2'>
-              <ModalProjects />
+              <ModalProjectsHanoi />
             </div>
           </div>
 
@@ -72,7 +77,7 @@ const Projects = () => {
               </a>
             </div>
             <div className='mt-2'>
-              <ModalProjects />
+              <ModalProjectsStoreFront />
             </div>
           </div>
           <div className="flex flex-col items-center">
@@ -82,7 +87,7 @@ const Projects = () => {
               </a>
             </div>
             <div className='mt-2'>
-              <ModalProjects />
+              <ModalProjectsQuotes />
             </div>
           </div>
         </div>
