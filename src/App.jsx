@@ -26,6 +26,7 @@ function App() {
             className="w-auto max-w-none h-full"
           >
             <source src={video} type="video/mp4" />
+            <source src={video} type="video/webp" />
           </video>
         </div>
         <div className="w-full items-center flex-wrap gap-6 relative">
