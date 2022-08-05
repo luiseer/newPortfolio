@@ -6,7 +6,6 @@ import {
   hanoi,
   fStore
 } from '../assets/img';
-import ModalProjects from '../helpers/ModalProjects';
 import ModalProjectsHanoi from '../helpers/ModalProjectsHanoi';
 import ModalProjectsPoke from '../helpers/ModalProjectsPoke';
 import ModalProjectsRyckYMorty from '../helpers/ModalProjectsRyckYMorty';

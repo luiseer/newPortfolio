@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import ReactPlayer from 'react-player';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import video from './assets/video/keyboard.mp4';
