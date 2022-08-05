@@ -7,6 +7,7 @@ import {
   fStore
 } from '../assets/img';
 import ModalProjects from '../helpers/ModalProjects';
+import ModalProjectsTask from '../helpers/ModalProjectsTask';
 
 const Projects = () => {
   return (
@@ -23,7 +24,7 @@ const Projects = () => {
               </a>
             </div>
             <div className='mt-2'>
-              <ModalProjects />
+              <ModalProjectsTask />
             </div>
           </div>
 

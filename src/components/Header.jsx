@@ -2,7 +2,7 @@ import { logo } from '../assets/img';
 const Header = () => {
   return (
     <nav className="flex justify-evenly">
-      <div>
+      <div className='mt-3'>
         <img
           src={logo}
           alt="logo"
