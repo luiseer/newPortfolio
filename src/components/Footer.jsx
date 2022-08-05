@@ -12,13 +12,16 @@ const Footer = () => {
         © {new Date().getFullYear()} - Todos los derechos reservados
       </p>
       <div className="flex gap-5 justify-center mt-4">
-        <a href="https://github.com/luiseer">
+        <a target="_blanck" href="https://github.com/luiseer">
           <FontAwesomeIcon
             className="text-secondary-color text-4xl"
             icon={faGithub}
           />
         </a>
-        <a href="https://www.linkedin.com/in/luis-estrada-746701a3/">
+        <a
+          target="_blanck"
+          href="https://www.linkedin.com/in/luis-estrada-746701a3/"
+        >
           <FontAwesomeIcon
             className="text-secondary-color text-4xl"
             icon={faLinkedinIn}

@@ -16,7 +16,7 @@ AOS, init();
 const Skills = () => {
   return (
     <>
-      <h2 className="text-center uppercase text-green-color font-bold text-2xl mt-20">
+      <h2 className="text-center uppercase text-green-color font-bold text-2xl mt-56">
         Mis habilidades
       </h2>
       <div className="flex flex-row flex-wrap justify-center mt-10 gap-10">

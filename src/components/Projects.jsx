@@ -1,9 +1,4 @@
 import {
-  blogcafe,
-  festival,
-  freelancer,
-  store,
-  poke_img,
   quotes,
   task,
   poke,
@@ -24,7 +19,7 @@ const Projects = () => {
           <div className="flex flex-col items-center">
             <div>
               <a href="">
-                <img className="w-full h-full rounded-md shadow-xl" src={task} alt="blog-cafe" />
+                <img className="w-full h-full rounded-md shadow-xl" src={task} alt="task" />
               </a>
             </div>
             <div className='mt-2'>
@@ -35,7 +30,7 @@ const Projects = () => {
           <div className="flex flex-col items-center">
             <div>
               <a href="">
-                <img className="w-full h-full rounded-md shadow-xl" src={poke} alt="festival" />
+                <img className="w-full h-full rounded-md shadow-xl" src={poke} alt="poke" />
               </a>
             </div>
             <div className='mt-2'>
@@ -49,7 +44,7 @@ const Projects = () => {
                 <img
                   className="w-full h-full rounded-md shadow-xl"
                   src={rym}
-                  alt="freelancer"
+                  alt="rym"
                 />
               </a>
             </div>
@@ -61,7 +56,7 @@ const Projects = () => {
           <div className="flex flex-col items-center">
             <div>
               <a href="">
-                <img className="w-full h-full rounded-md shadow-xl" src={hanoi} alt="store" />
+                <img className="w-full h-full rounded-md shadow-xl" src={hanoi} alt="hanoi" />
               </a>
             </div>
             <div className='mt-2'>
@@ -72,7 +67,7 @@ const Projects = () => {
           <div className="flex flex-col items-center">
             <div>
               <a href="">
-                <img className="w-full h-full rounded-md shadow-xl" src={fStore} alt="poke" />
+                <img className="w-full h-full rounded-md shadow-xl" src={fStore} alt="fstore" />
               </a>
             </div>
             <div className='mt-2'>
