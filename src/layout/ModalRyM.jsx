@@ -33,12 +33,12 @@ const ModalRyM = () => {
 
                 <div className='mt-4 flex justify-evenly gap-1 items-start'>
                     <div>
-                        <a target='_blanck' href="https://github.com/luiseer/entregable-3">
+                        <a target='_blanck' className='hover:border-b-2' href="https://github.com/luiseer/entregable-3">
                             GitHub
                         </a>
                     </div>
                     <div>
-                        <a target='_blanck' href="https://rymluisestrada.netlify.app/">
+                        <a target='_blanck' className='hover:border-b-2' href="https://rymluisestrada.netlify.app/">
                             Netlify
                         </a>
                     </div>

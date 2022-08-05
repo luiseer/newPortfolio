@@ -33,18 +33,18 @@ const ModalTask = () => {
 
                 <div className='mt-4 flex flex-col gap-1 items-start'>
                     <div>
-                        <a target='_blanck' href="https://github.com/luiseer/todoList_Frontend">
+                        <a target='_blanck' className='hover:border-b-2' href="https://github.com/luiseer/todoList_Frontend">
                             GitHub FrontEnd
                         </a>
                     </div>
                     <div>
-                        <a target='_blanck' href="https://github.com/luiseer/TodoList">
+                        <a target='_blanck' className='hover:border-b-2' href="https://github.com/luiseer/TodoList">
                             GitHub BackEnd
                         </a>
 
                     </div>
                     <div>
-                        <a target='_blanck' href="https://taskluis.netlify.app/">
+                        <a target='_blanck' className='hover:border-b-2' href="https://taskluis.netlify.app/">
                             Netlify
                         </a>
                     </div>

@@ -41,12 +41,12 @@ const ModalHanoi = () => {
 
                 <div className='mt-4 flex justify-evenly gap-1 items-start'>
                     <div>
-                        <a target='_blanck' href="https://github.com/luiseer/hanoi_project-master">
+                        <a target='_blanck' className='hover:border-b-2' href="https://github.com/luiseer/hanoi_project-master">
                             GitHub
                         </a>
                     </div>
                     <div>
-                        <a target='_blanck' href="https://hanoitowersluisestrada.netlify.app/">
+                        <a target='_blanck' className='hover:border-b-2' href="https://hanoitowersluisestrada.netlify.app/">
                             Netlify
                         </a>
                     </div>

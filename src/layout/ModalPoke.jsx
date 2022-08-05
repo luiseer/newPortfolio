@@ -33,12 +33,12 @@ const ModalPoke = () => {
 
                 <div className='mt-4 flex justify-evenly gap-1 items-start'>
                     <div>
-                        <a target='_blanck' href="https://github.com/luiseer/entregable5">
+                        <a target='_blanck' className='hover:border-b-2' href="https://github.com/luiseer/entregable5">
                             GitHub
                         </a>
                     </div>
                     <div>
-                        <a target='_blanck' href="https://pokedexluismex.netlify.app/#/poke">
+                        <a target='_blanck' className='hover:border-b-2' href="https://pokedexluismex.netlify.app/#/poke">
                             Netlify
                         </a>
                     </div>

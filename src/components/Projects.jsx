@@ -23,9 +23,7 @@ const Projects = () => {
         <div className="grid sm:grid-cols-1 md:grid-cols-3 px-5 gap-3 mt-2">
           <div className="flex flex-col items-center">
             <div>
-              <a href="">
                 <img className="w-full h-full rounded-md shadow-xl" src={task} alt="task" />
-              </a>
             </div>
             <div className='mt-2'>
               <ModalProjectsTask />
@@ -34,9 +32,8 @@ const Projects = () => {
 
           <div className="flex flex-col items-center">
             <div>
-              <a href="">
                 <img className="w-full h-full rounded-md shadow-xl" src={poke} alt="poke" />
-              </a>
+          
             </div>
             <div className='mt-2'>
               <ModalProjectsPoke />
@@ -45,13 +42,11 @@ const Projects = () => {
 
           <div className="flex flex-col items-center">
             <div>
-              <a href="">
                 <img
                   className="w-full h-full rounded-md shadow-xl"
                   src={rym}
                   alt="rym"
                 />
-              </a>
             </div>
             <div className='mt-2'>
               <ModalProjectsRyckYMorty />
@@ -60,9 +55,7 @@ const Projects = () => {
 
           <div className="flex flex-col items-center">
             <div>
-              <a href="">
                 <img className="w-full h-full rounded-md shadow-xl" src={hanoi} alt="hanoi" />
-              </a>
             </div>
             <div className='mt-2'>
               <ModalProjectsHanoi />
@@ -71,9 +64,7 @@ const Projects = () => {
 
           <div className="flex flex-col items-center">
             <div>
-              <a href="">
                 <img className="w-full h-full rounded-md shadow-xl" src={fStore} alt="fstore" />
-              </a>
             </div>
             <div className='mt-2'>
               <ModalProjectsStoreFront />
@@ -81,9 +72,7 @@ const Projects = () => {
           </div>
           <div className="flex flex-col items-center">
             <div>
-              <a href="">
                 <img className="w-full h-full rounded-md shadow-xl" src={quotes} alt="quotes" />
-              </a>
             </div>
             <div className='mt-2'>
               <ModalProjectsQuotes />

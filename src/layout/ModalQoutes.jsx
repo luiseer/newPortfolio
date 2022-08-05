@@ -32,12 +32,12 @@ const ModalQoutes = () => {
 
         <div className='mt-4 flex justify-evenly gap-1 items-start'>
             <div>
-                <a target='_blanck' href="https://github.com/luiseer/react_ramdon_quote">
+                <a target='_blanck' className='hover:border-b-2' href="https://github.com/luiseer/react_ramdon_quote">
                     GitHub
                 </a>
             </div>
             <div>
-                <a target='_blanck' href="https://reactentregable1.netlify.app/">
+                <a target='_blanck' className='hover:border-b-2' href="https://reactentregable1.netlify.app/">
                     Netlify
                 </a>
             </div>
