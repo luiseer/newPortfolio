@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { videoMp4, videoWebm } from './assets/video';
+import { videoMp4, videoMp4Compress, videoWebm } from './assets/video';
 import Header from './components/Header';
 import Projects from './components/Projects';
 import AboutMe from './components/AboutMe';
@@ -24,8 +24,9 @@ function App() {
             playsInline
             className="w-auto max-w-none h-full"
           >
-            <source src={videoMp4} type="video/mp4" /> 
-            <source src={videoWebm} type="video/webp" />
+            <source src={videoWebm} type="video/webm" />
+            <source src={videoMp4} type="video/mp4" />
+            <source src={videoMp4Compress} type="video/mp4" /> 
           </video>
         </div>
         <div className="w-full items-center flex-wrap gap-6 relative">
