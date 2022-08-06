@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import video from './assets/video/keyboard.mp4';
+import { videoMp4, videoWebm } from './assets/video';
 import Header from './components/Header';
 import Projects from './components/Projects';
 import AboutMe from './components/AboutMe';
@@ -24,24 +24,24 @@ function App() {
             playsInline
             className="w-auto max-w-none h-full"
           >
-            <source src={video} type="video/mp4" />
-            <source src={video} type="video/webp" /> 
+            <source src={videoMp4} type="video/mp4" /> 
+            <source src={videoWebm} type="video/webp" />
           </video>
         </div>
         <div className="w-full items-center flex-wrap gap-6 relative">
           <div>
             <Header />
           </div>
-          <div id='portafolio'>
+          <div id="portafolio">
             <Projects />
           </div>
-          <div id='acerca-de-mi'>
+          <div id="acerca-de-mi">
             <AboutMe />
           </div>
-          <div id='habilidades'>
+          <div id="habilidades">
             <Skills />
           </div>
-          <div id='contacto'>
+          <div id="contacto">
             <Contact />
           </div>
           <div>
