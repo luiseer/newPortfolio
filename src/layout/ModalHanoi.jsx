@@ -13,11 +13,11 @@ const ModalHanoi = () => {
                 </div>
                 <div className='mt-3'>
                     <p>
-                        Las torres de Hanoi son un juego de movimiento de discos en una o más torres de una misma altura.
-                        este juego se realiza con una cantidad de discos determinada, y se mueven de una torre a otra,
-                        dejando un disco en la torre de destino.
+                        Las torres de Hanoi: El objetivo del juego es trasladar la pila a otro de los 
+                        postes siguiendo ciertas reglas, como que no se puede colocar un disco más grande 
+                        encima de un disco más pequeño. 
                         <span className='font-bold'>
-                            Este ejercicio este resulta usando recursividad
+                            Este ejercicio esta resuelto usando recursividad.
                         </span>
                     </p>
                 </div>

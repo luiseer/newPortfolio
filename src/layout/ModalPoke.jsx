@@ -13,7 +13,9 @@ const ModalPoke = () => {
                 </div>
                 <div className='mt-3'>
                     <p>
-                        Este proyecto es se realizan diferentes peticiones a la API de Pokemon para obtener información de los pokemones.
+                        Este proyecto es se realizan diferentes peticiones a la API de
+                        <a href="https://pokeapi.co/" target='_blanck' className='font-bold mr-1 ml-1'>API de Pokemon</a>
+                        para obtener información de los pokemones.
                     </p>
                 </div>
                 <div className='flex justify-center gap-3 mt-3'>

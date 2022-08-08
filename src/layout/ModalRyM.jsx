@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCss3, faHtml5, faJs, faNode, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faCss3, faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-icons'
 
 
 const ModalRyM = () => {
@@ -13,7 +13,9 @@ const ModalRyM = () => {
                 </div>
                 <div className='mt-3'>
                     <p>
-                        Este proyecto se realizan peticiones random a la API de Ryck y Morty para obtener información de los personajes, con la posibilidad de buscar por planeta.
+                        Este proyecto se realizan peticiones random a la API de 
+                        <a href="https://rickandmortyapi.com" target='_blanck' className='font-bold mr-1 ml-1'>Ryck y Morty</a>
+                        para obtener información de los personajes, con la posibilidad de buscar por planeta.
                     </p>
                 </div>
                 <div className='flex justify-center gap-3 mt-3'>
