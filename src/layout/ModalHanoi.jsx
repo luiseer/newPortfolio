@@ -13,10 +13,12 @@ const ModalHanoi = () => {
                 </div>
                 <div className='mt-3'>
                     <p>
-                        Las torres de Hanoi: El objetivo del juego es trasladar la pila a otro de los 
+                        <a href="https://es.wikipedia.org/wiki/Torres_de_Han%C3%B3i" target='_blanck' className='ml-1 mr-1 font-bold'>
+                        Las torres de Hanoi:</a>
+                        El objetivo del juego es trasladar la pila a otro de los 
                         postes siguiendo ciertas reglas, como que no se puede colocar un disco más grande 
                         encima de un disco más pequeño. 
-                        <span className='font-bold'>
+                        <span className='font-bold text-white'>
                             Este ejercicio esta resuelto usando recursividad.
                         </span>
                     </p>
