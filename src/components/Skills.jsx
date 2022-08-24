@@ -94,7 +94,7 @@ const Skills = () => {
             </div>
             <ul>
               <li>
-                Conocimento em bases de datos relacionales y no relacionales
+                Bases de datos relacionales y no relacionales
               </li>
               <li>Uso de Express</li>
               <li>Creación de API`s</li>
