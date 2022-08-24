@@ -8,7 +8,7 @@ const ModalHanoi = () => {
             <div>
                 <div>
                     <h2 className='font-bold text-center'>
-                        Ryck y Morty
+                        Las Torres de Hanoi
                     </h2>
                 </div>
                 <div className='mt-3'>
