@@ -9,7 +9,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 AOS.init();
-
+  
 function App() {
   const [count, setCount] = useState(0);
 
