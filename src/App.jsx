@@ -15,13 +15,13 @@ function App() {
         id="hero"
         className="relative min-h-screen flex items-center justify-center overflow-hidden"
       >
-        <div className="absolute inset-0 flex justify-center overflow-hidden">
+        <div className="absolute inset-0 overflow-hidden">
           <video
             autoPlay
             loop
             muted
             playsInline
-            className="w-auto max-w-none h-full opacity-[0.08]"
+            className="absolute inset-0 w-full h-full object-cover opacity-[0.08]"
           >
             <source src={videoWebm} type="video/webm" />
             <source src={videoMp4} type="video/mp4" />
