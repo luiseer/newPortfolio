@@ -65,6 +65,8 @@ const AboutMe = () => {
               <img
                 src={me}
                 alt="Luis Emmanuel Estrada Rodríguez"
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover"
               />
             </div>
