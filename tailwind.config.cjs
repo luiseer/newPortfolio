@@ -7,11 +7,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary-color': '#2DFCD8',
-        'secondary-color': '#8257FA',
-        'blue-color': '#4B59D6',
-        'green-color': '#4BBBD6',
-      }
+        'background': '#0a0f1e',
+        'surface': '#111827',
+        'accent': '#64ffda',
+        'accent-dim': '#64ffda26',
+        'text-primary': '#ccd6f6',
+        'text-secondary': '#8892b0',
+        'border-subtle': '#1e293b',
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        mono: ['Fira Code', 'monospace'],
+      },
     },
   },
   plugins: [],

@@ -2,6 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
 
-html, body { box-sizing: border-box; margin:0; padding:0; } 
-body { background-color: #373636; }
+  body {
+    background-color: #0a0f1e;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #ccd6f6;
+  }
+
+  ::selection {
+    background-color: #64ffda;
+    color: #0a0f1e;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply relative text-text-secondary hover:text-accent transition-colors duration-300;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute left-0 -bottom-1 w-0 h-[2px] bg-accent transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  .cursor-glow {
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle at center, #64ffda0a 0%, transparent 70%);
+    pointer-events: none;
+  }
+}

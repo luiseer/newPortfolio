@@ -1,140 +1,59 @@
-import AOS, { init } from 'aos';
-import 'aos/dist/aos.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faCss3,
-  faGithub,
-  faHtml5,
-  faJs,
-  faNode,
-  faPython,
-  faReact
-} from '@fortawesome/free-brands-svg-icons';
-
-AOS, init();
+const skillGroups = [
+  {
+    category: 'Frontend',
+    skills: ['React', 'JavaScript', 'TypeScript', 'Tailwind CSS', 'HTML5', 'CSS3'],
+  },
+  {
+    category: 'Backend',
+    skills: ['Python', 'Node.js', 'Flask', 'Express', 'REST APIs', 'Django'],
+  },
+  {
+    category: 'Infraestructura / DevOps',
+    skills: ['Docker', 'Linux/Ubuntu Server', 'Proxmox', 'Git', 'Nginx', 'Bash'],
+  },
+  {
+    category: 'Bases de Datos',
+    skills: ['PostgreSQL', 'MongoDB', 'MySQL', 'SQLite'],
+  },
+];
 
 const Skills = () => {
   return (
-    <>
-      <h2 className="text-center uppercase text-green-color font-bold text-2xl mt-56">
-        Mis habilidades
+    <section className="py-32 px-6 max-w-6xl mx-auto">
+      <p
+        className="text-accent font-mono text-xs mb-2"
+        data-aos="fade-up"
+      >
+        // habilidades
+      </p>
+      <h2
+        className="text-3xl md:text-4xl font-bold text-text-primary mb-16"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        <span className="text-accent">.</span> Mis Habilidades
       </h2>
-      <section className="grid sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-4 text-white px-5 gap-3 mt-2">
-        <div data-aos="fade-up-right">
-          <div className="card text-center border-2 h-full">
-            <div>
-              <FontAwesomeIcon
-                className="text-blue-color font-extrabold text-9xl"
-                icon={faHtml5}
-              />
-            </div>
-            <ul>
-              <li>Conocimiento en SEO</li>
-              <li>Maquetado de proyectos</li>
-            </ul>
-          </div>
-        </div>
-        <div data-aos="fade-up-right">
-          <div className="text-center card border-2 h-full">
-            <div>
-              <FontAwesomeIcon
-                className="text-blue-color font-extrabold text-9xl p-2"
-                icon={faCss3}
-              />
-            </div>
-            <ul>
-              <li>Modelos CSS grid</li>
-              <li>Modelos CSS Flexbox</li>
-              <li>Uso de procesador de CSS SASS</li>
-              <li>Uso de Tailwind CSS</li>
-            </ul>
-          </div>
-        </div>
 
-        <div data-aos="zoom-in">
-          <div className="text-center card border-2 h-full">
-            <div>
-              <FontAwesomeIcon
-                className="text-blue-color font-extrabold text-9xl p-2"
-                icon={faJs}
-              />
+      <div className="grid md:grid-cols-2 gap-10">
+        {skillGroups.map((group) => (
+          <div key={group.category} data-aos="fade-up" data-aos-delay={150}>
+            <h3 className="font-mono text-accent text-sm mb-4">
+              {'// ' + group.category}
+            </h3>
+            <div className="flex flex-wrap gap-3">
+              {group.skills.map((skill) => (
+                <span
+                  key={skill}
+                  className="bg-surface border border-border-subtle text-text-secondary text-sm px-3 py-1.5 rounded-full hover:border-accent/50 hover:text-accent transition-colors duration-300"
+                >
+                  {skill}
+                </span>
+              ))}
             </div>
-            <ul>
-              <li>Conocimiento intermedio en el uso de Java Script</li>
-              <li>Conocimientos basicos en POO con JS</li>
-              <li>Solucion de problemas de logica</li>
-            </ul>
           </div>
-        </div>
-
-        <div data-aos="zoom-in">
-          <div className="text-center card border-2 h-full">
-            <div>
-              <FontAwesomeIcon
-                className="text-blue-color font-extrabold text-9xl p-2"
-                icon={faReact}
-              />
-            </div>
-            <ul>
-              <li>Conocimiento intermedio en React</li>
-              <li>Consumo de API`s</li>
-              <li>Uso de React router dom</li>
-              <li>Uso de Redux</li>
-            </ul>
-          </div>
-        </div>
-
-        <div data-aos="zoom-in">
-          <div className="text-center card border-2 h-full">
-            <div>
-              <FontAwesomeIcon
-                className="text-blue-color font-extrabold text-9xl p-2"
-                icon={faNode}
-              />
-            </div>
-            <ul>
-              <li>
-                Bases de datos relacionales y no relacionales
-              </li>
-              <li>Uso de Express</li>
-              <li>Creación de API`s</li>
-              <li>Uso de MVC</li>
-            </ul>
-          </div>
-        </div>
-
-        <div data-aos="fade-up-left">
-          <div className="text-center card border-2 h-full">
-            <div>
-              <FontAwesomeIcon
-                className="text-blue-color font-extrabold text-9xl p-2"
-                icon={faPython}
-              />
-            </div>
-            <ul>
-              <li>Conocimiento basico del lenjuage</li>
-              <li>Creacion de API`s con Django</li>
-              <li>Documentación usando swagger</li>
-            </ul>
-          </div>
-        </div>
-
-        <div data-aos="fade-up-left">
-          <div className="text-center card border-2 h-full">
-            <div>
-              <FontAwesomeIcon
-                className="text-blue-color font-extrabold text-9xl p-2"
-                icon={faGithub}
-              />
-            </div>
-            <ul>
-              <li>Trabajo en equipo usando diferentes ramas</li>
-              <li>Control de permisos</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-    </>
+        ))}
+      </div>
+    </section>
   );
 };
 
